@@ -11,7 +11,7 @@ export default function Navbar() {
                         Crafters
                     </div>
                     <div className='lg:block hidden'>
-                        <ul className='flex  font-medium items-center '>
+                        <ul className='flex  font-medium  lg:gap-x-4 items-center '>
                             <li className='border rounded-full hover:bg-blue-500 hover:text-white transition-all cursor-pointer font-medium border-blue-500 px-3 py-1.5'>Home</li>
                             <li className=' rounded-full hover:bg-blue-500 hover:text-white transition-all cursor-pointer font-medium border-blue-500 px-3 py-1.5'>Services</li>
                             <li className=' rounded-full hover:bg-blue-500 hover:text-white transition-all cursor-pointer font-medium border-blue-500 px-3 py-1.5'>Works</li>
