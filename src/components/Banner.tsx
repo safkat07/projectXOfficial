@@ -1,9 +1,10 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import MaxContentWrapper from './MaxContentWrapper'
 
 export default function Banner() {
   return (
-    <div className='flex  justify-center min-h-[60vh] md:min-h-[calc(100vh-80px)] items-center h-fit'>
+    <div className='flex   justify-center min-h-[60vh] md:min-h-[calc(100vh-80px)] items-center h-fit'>
       <MaxContentWrapper>
         <div className='lg:pt-0 pt-10'>
           <div className='text-center '>
@@ -18,6 +19,7 @@ export default function Banner() {
           </div>
         </div>
       </MaxContentWrapper>
+
     </div>
   )
 }
