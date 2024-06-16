@@ -2,7 +2,7 @@ import React from 'react'
 
 const DescriptionText = ({ text }: { text: string }) => {
     return (
-        <p className='lg:text-3xl leading-tight  text-lg'>{text}</p>
+        <p className='xl:text-2xl  leading-tight  text-lg text-justify'>{text}</p>
     )
 }
 

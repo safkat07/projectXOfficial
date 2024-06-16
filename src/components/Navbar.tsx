@@ -3,7 +3,7 @@ import MaxContentWrapper from './MaxContentWrapper'
 
 export default function Navbar() {
     return (
-        <nav className=' sticky sm:py-5 py-2.5 bg-white/75 backdrop-blur-lg inset-x-0 top-0'>
+        <nav className=' sticky sm:py-5 py-2.5 bg-white/20 backdrop-blur-lg inset-x-0 top-0'>
             <MaxContentWrapper>
                 <div className='w-full  flex justify-between items-center'>
                     {/* logo and navlinks div */}
