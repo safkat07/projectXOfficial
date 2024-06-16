@@ -7,6 +7,7 @@ import ProjectCards from './ProjectCards'
 import ProjectDisplay from './ProjectDisplay'
 import ProjectDisplayMobile from './ProjectDisplayMobile'
 
+
 const OurProjects = () => {
     return (
         <div className='h-full  py-10'>
@@ -20,7 +21,6 @@ const OurProjects = () => {
                         <Image className='' layout="responsive" width={500} height={300} src="/works.svg" alt='teams image' />
                     </div>
                 </div>
-
                 <div className='py-10  '>
                     <ProjectDisplay />
                     <ProjectDisplayMobile />
