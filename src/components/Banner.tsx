@@ -4,7 +4,7 @@ import MaxContentWrapper from './MaxContentWrapper'
 
 export default function Banner() {
   return (
-    <div className='flex   justify-center min-h-[60vh] md:min-h-[calc(100vh-80px)] items-center h-fit'>
+    <div className='flex   justify-center min-h-[60dvh] md:min-h-[calc(100vh-80px)] items-center h-fit'>
       <MaxContentWrapper>
         <div className='lg:pt-0 pt-10'>
           <div className='text-center '>

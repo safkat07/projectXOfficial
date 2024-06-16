@@ -25,7 +25,7 @@ const Services = () => {
     ];
 
     return (
-        <div className='h-full py-10'>
+        <div className='h-full sm:py-10 py-20'>
             <MaxContentWrapper>
 
                 <div className='flex  sm:gap-5 gap-1.5 items-center lg:w-3/4 w-full'>
