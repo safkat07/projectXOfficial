@@ -5,7 +5,7 @@ import DescriptionText from './DescriptionText'
 import Image from 'next/image'
 const AboutUs = () => {
     return (
-        <div className='h-full py-10'>
+        <section id="about" className='h-full py-10'>
             <MaxContentWrapper >
                 <div className='flex lg:flex-row-reverse flex-col gap-x-5 justify-between'>
                     <div className='flex flex-row-reverse sm:gap-5 gap-1.5 items-center lg:w-3/4 w-full'>
@@ -18,7 +18,7 @@ const AboutUs = () => {
                 </div>
 
             </MaxContentWrapper>
-        </div>
+        </section>
     )
 }
 

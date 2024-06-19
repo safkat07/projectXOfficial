@@ -7,7 +7,7 @@ const ProjectCards = ({ projectName, projectImage, liveLink }: {
     liveLink: string
 }) => {
     return (
-        <div className='w-full group hover:px-5 hover:shadow-xl  flex justify-center hover:text-white items-center hover:bg-blue-500 cursor-pointer transition-all duration-500 h-24 border-b-2 border-blue-500'>
+        <div className='w-full group hover:px-5 hover:shadow-xl  flex justify-center hover:text-white items-center hover:bg-blue-500 cursor-pointer transition-all duration-500 h-24 border-b border-blue-500'>
             <div className=' flex justify-between items-center w-full'>
                 <p className='text-xl font-semibold'>{projectName}</p>
                 <div>

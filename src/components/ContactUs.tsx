@@ -5,7 +5,7 @@ import DescriptionText from './DescriptionText'
 
 const ContactUs = () => {
     return (
-        <div className='h-full py-10'>
+        <div id='contactus' className='h-full py-10'>
             <MaxContentWrapper >
                 <div className='flex lg:flex-row-reverse items-center flex-col gap-x-5 justify-between'>
                     <div className='flex flex-row-reverse sm:gap-5 gap-1.5 items-center lg:w-3/4 w-full'>

@@ -26,7 +26,7 @@ const Services = () => {
     ];
 
     return (
-        <div  id='services' className='h-full sm:py-10 py-20'>
+        <section id='services' className='h-full sm:py-10 py-20'>
             <MaxContentWrapper>
                 <div className='flex lg:flex-row items-center flex-col gap-x-5 justify-between'>
                     <div className='flex  sm:gap-5 gap-1.5 items-center lg:w-3/4 w-full'>
@@ -48,7 +48,7 @@ const Services = () => {
                     ))}
                 </div>
             </MaxContentWrapper>
-        </div>
+        </section>
     )
 }
 
