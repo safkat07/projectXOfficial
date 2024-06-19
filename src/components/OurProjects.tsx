@@ -10,7 +10,7 @@ import ProjectDisplayMobile from './ProjectDisplayMobile'
 
 const OurProjects = () => {
     return (
-        <section id='works' className='h-full  py-10'>
+        <section id='works' className='h-full  py-20'>
             <MaxContentWrapper>
                 <div className='flex lg:flex-row pb10 flex-col gap-2.5 justify-between'>
                     <div className='flex  sm:gap-5 gap-1.5 items-center lg:w-3/4 w-full'>

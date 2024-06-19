@@ -10,7 +10,7 @@ import { FaCopyright } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <div className=" py-10 bg-blue-500">
+        <div className=" py-20 bg-blue-500">
             <MaxContentWrapper>
                 <div className="h-full text-white flex items-center justify-center flex-col ">
                     <h1 className="text-3xl text-white  ">ArtiFicia</h1>
@@ -39,7 +39,7 @@ const Footer = () => {
                             <li className="">
                                 <FaTwitterSquare />
                             </li>
-                            
+
                         </ul>
                     </div>
 
