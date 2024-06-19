@@ -70,7 +70,7 @@ export default function Navbar() {
                     </div>
                     <div onClick={toggleNav} className='lg:hidden z-[1000] block'>
                         <button className={`border rounded-full hover:bg-blue-500 hover:text-white transition-all font-medium border-blue-500 px-3 py-1.5 `}>
-                            Menu
+                            {open ? "Close" : "Menu"}
                         </button>
                     </div>
                 </div>
